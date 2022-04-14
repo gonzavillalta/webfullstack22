@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Gonzalo Villalta</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
     <h1>GONZALO VILLALTA</h1>
 
-    <img src="Nube en el horizonte.jpg" alt="Nube en el horizonte con lineas de luz">
-    
+    <div class="portada">
+        <img src="imagenes/DoGreat.jpg" alt="Do Something Great" class="DoGreat">
+
+    </div>
+
+
     <p>Edad</p>
     <p>Domicilio</p>
     <div>
         <h2>Que series me gustan?</h2>
-    <ul>
-        <li>Una de Accion</li> 
-        <li>Una de Suspenso</li>
-        <li>Una Comedia</li>
-    </ul>
+        <ul>
+            <li>Una de Accion</li>
+            <li>Una de Suspenso</li>
+            <li>Una Comedia</li>
+        </ul>
     </div>
 
     <div>
@@ -30,33 +37,41 @@
             <li>Terremoto</li>
         </ol>
     </div>
-    
+
+    <h3>Perfil</h3>
     <div>
-        <h2>Perfil</h2>
-        <p>Desarrollar nuevas Habilidades para mantener activo al cerebro</p>
+        <p>Desarrollar nuevas Habilidades para <span class="destacados">mantener activo</span> al cerebro</p>
         <p>Trabajar la tierra y generar comida para una mejor alimentación</p>
         <p>Ni un paso atras, ni siquiera para tomar impulso</p>
     </div>
-    
-    <div>
-        <p>Si querés contactarme podes completar el siguiente Formulario:</p>
-        <form action="" method=""> 
-        <label for="Nombre">Nombre</label>
-        <input type="text" name="Nombre">
 
-        <label for="Apellido">Apellido</label>
-        <input type="text" name="Apellido">
-        
-        <div>
-        <label for="Movil">Movil</label>
-        <input type="text" placeholder="Movil">
-        <label for="Email">Email</label>
-         <input type="text" placeholder="Email">
-        </div>
+    <h4>Si querés contactarme podes completar el siguiente Formulario:</h4>
+    <div id="Form">
+        <form action="" method="">
+            <div id="Nombre">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre">
+            </div>
 
-        <input type="Submit" value="Enviar" >   
+            <div id="Apellido">
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="Apellido">
+            </div>
+
+            <div id="Movil">
+                <label for="Movil">Movil</label>
+                <input type="text" placeholder="Movil">
+            </div>
+
+            <div id="Email">
+                <label for="Email">Email</label>
+                <input type="text" placeholder="Email">
+            </div>
+
+            <input type="Submit" value="Enviar">
         </form>
     </div>
 
 </body>
+
 </html>
