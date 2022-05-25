@@ -1,0 +1,70 @@
+/*
+font-family: 'Permanent Marker', cursive;
+*/
+
+p{
+    color: red;
+    font-family:arial;
+    font-size: 20px;
+    line-height: 25px;
+}
+h2{
+    color: blue;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+li{
+    color: green;
+    font-family: tahoma;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-weight: 800;
+    color: blue;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+.destacados{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+#Form{
+    border: 2px solid black;
+    width: 600px;
+    margin-left: 300px;
+}
+
+.portada{
+width: auto;
+height: 400px;
+}
+
+img{
+   height: 100%;
+   width: 100%;
+   object-fit: fill;
+}
+
+.descripcion{
+    width: 800px;
+    margin-left: 270px;
+    text-align: center;
+    background: #0c00ff;
+background: linear-gradient(180deg,#0c00ff 0%, #00ff7c 80%);
+background: -webkit-linear-gradient(180deg,#0c00ff 0%, #00ff7c 80%);
+background: -moz-linear-gradient(180deg,#0c00ff 0%, #00ff7c 80%);
+border-radius: 20px;
+}
+    
+.redessociales{
+    margin-top: 50px;
+    margin-left: 600px;
+    font-size: 50px;
+}
