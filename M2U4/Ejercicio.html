@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probando bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <!-- Intente que el nav acompañe al scroll del sitio. no supe como resolverlo -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PARVADAS</a>
+                <!-- <button class="navbar-toggler" type="button" ; data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Linkedln</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Facebook</a>
+                        </li>
+                        <!-- No supe como alinear al centro las redes sociales -->
+                    </ul>
+                    <span class="navbar-text">
+                        <button type="button"
+                            style="color: black; font-size: 18px; font-weight: 700; font-family: 'verdana'; background-color: #f80209;"
+                            class="btn btn-danger">Contact Us</button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="d-flex p-2 justify-content-center">
+        <img src="https://via.placeholder.com/500x300.png" class="img-fluid" alt="...">
+    </div>
+
+    <div class="d-flex p-2 justify-content-center">
+        <h2>Consultora de Marketing</h2>
+    </div>
+
+    <div class="d-flex p-2 justify-content-center">
+        <p> Ayudamos a start-ups y empresas a crear y lanzar su imagen digital</p>
+    </div>
+
+    <div class="d-flex p-2 justify-content-around" style="background-color: rgb(242, 237, 237) " ;>
+
+        <div class="p-2" ;>
+            <img src="https://via.placeholder.com/200x200.png" alt="">
+            <p class="fs-1">ESTRATEGIA</p>
+            <p>Texto breve para descripcion </p>
+            <!-- no pude resolver el ajuste del texto para que no se desborde de la caja -->
+        </div>
+
+        <div class="p-2" ;>
+            <img src="https://via.placeholder.com/200x200.png" alt="">
+            <p class="fs-1">IDENTIDAD</p>
+            <p>Texto breve para descripcion</p>
+
+        </div>
+
+        <div class="p-2" ;>
+            <img src="https://via.placeholder.com/200x200.png" alt="">
+            <p class="fs-1">DIGITAL</p>
+            <!-- no le encontre la vuelta para centrar la palabra Digital -->
+            <p>Texto breve para descripcion</p>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card" style="background-color: #f80209 ;">
+                <i class="fa-solid fa-lightbulb"></i>
+                <!-- Agrandar iconos? -->
+                <div class="card-body">
+                    <h5 class="card-title">Business Discovery and Research</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="background-color: #f80209 ;">
+                <i class="fa-solid fa-compass"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Product Strategy and Market Fit</h5>
+                    <p class="card-text"> This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="background-color: #f80209 ;">
+                <i class="fa-solid fa-window-restore"></i>
+                <div class="card-body">
+                    <h5 class="card-title">UI Design and Design Systems</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="background-color: #f80209 ;">
+                <i class="fa-solid fa-ruler-combined"></i>
+                <!-- Como puedo agrandar los iconos? -->
+                <div class="card-body">
+                    <h5 class="card-title">User Testing and Data Driven Design</h5>
+                    <!-- No supe como cambiar la tipografia o incluir un Bold -->
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Las cartas no me quedaron del mismo tamaño. No supe como sacarles el borde redondeado -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col">PARVADAS</div>
+            <div class="col">Copyright Gonzalo Villalta 2022</div>
+            <div class="col">Derechos de Autor</div>
+          </div>
+        
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+
+        </script>
+</body>
+
+</html>
