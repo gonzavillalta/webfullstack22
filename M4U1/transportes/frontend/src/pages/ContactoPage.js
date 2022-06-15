@@ -7,21 +7,21 @@ const ContactoPage = (props) => {
                 <form action='' method='' className='formulario'>
                     <p>
                         <label for='nombre'>Nombre </label>
-                        <input type='text' name=''></input>
+                        <input type='text' name=''/>
                     </p>
                     <p>
                         <label for='email'> Email   </label>
-                        <input type='text' name=''></input>
+                        <input type='text' name=''/>
                     </p>
                     <p>
                         <label for='telefono'>Telefono </label>
-                        <input type='text' name=''></input>
+                        <input type='text' name=''/>
                     </p>
                     <p>
                         <label for='mensaje'>Mensaje </label>
-                        <input type='text' name=''></input>
+                        <input type='text' name=''/>
                     </p>
-                    <p class='acciones'><input type='submit' value='enviar'></input>
+                    <p class='acciones'><input type='submit' value='enviar'/>
 
                     </p>
 
