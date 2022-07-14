@@ -3,10 +3,10 @@ const Header = (props) => {
     return (
         <header>
             <div className='holder'>
-                <img src='img/Head.png' width='300' alt='Parvadas'/>
-                <h1> PARVADAS SENSOMARKETING </h1>
+                <img src='img/logo whole.001.png' width='500' alt='Parvadas' />
+
             </div>
-       
+
         </header>
     );
 }

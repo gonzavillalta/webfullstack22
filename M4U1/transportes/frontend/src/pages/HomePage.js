@@ -2,15 +2,17 @@ import React from 'react';
 const HomePage = (props) => {
     return (
         <main className='holder'>
-            <div className='creatividadimg'>
-                <img src='img/creativity.png' width='75' alt='cerebro creativo' />
-            </div>
+            
             <div className='columns'>
                 <div className='bienvenidos'>
                     <h2>Bienvenidos a nuestro sitio Web</h2>
-                    <p>Esta es una prueba del diseño del sitio web</p>
+                    <p>Ayudamos a Start-ups y Empresas a Crear, Rediseñar y Lanzar su imagen digital</p>
                     <p>Este es el diseño de 2 columnas que estamos probando</p>
                 </div>
+
+                <div className='creatividadimg'>
+                <img src='img/creativity.png' width='75' alt='cerebro creativo' />
+            </div>
 
                 <div className='testimonios'>
                         <h2>Testimonios</h2>

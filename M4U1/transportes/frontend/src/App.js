@@ -16,19 +16,19 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
 
       <BrowserRouter>
         <Nav/ >
+        <Header />
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='nosotros' element={<NosotrosPage />} />
           <Route path='servicios' element={<ServiciosPage />} />
           <Route path='contacto' element={<ContactoPage />} />
         </Routes>
-        
       </BrowserRouter>
-
+      
       <Footer/>
     </div>
   );
