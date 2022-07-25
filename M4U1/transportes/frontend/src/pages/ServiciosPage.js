@@ -1,44 +1,56 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import Button from 'react-bootstrap/Button';
+import '../styles/ServiciosPage.css';
 
 function ServiciosPage() {
     return (
         <CardGroup>
             <Card>
-                <Card.Img variant="top" src='img/creativity.png' width='75' alt='cerebro creativo' />
+                <Card.Img variant="top" src='img/creativity.png' alt='cerebro creativo' />
                 <Card.Body>
-                    <Card.Title>Innovacion</Card.Title>
-                    <Card.Text>
+                    <h1>Innovacion</h1>
+                    <p>
                         Pensamos fuera de la caja
-                    </Card.Text>
+                    </p>
+                    <Button variant="primary">Conoce Más</Button>
                 </Card.Body>
             </Card>
+            
+
             <Card>
-                <Card.Img variant="top" src='img/palomo.png' width="75" alt='Palomo' />
+                <Card.Img variant="top" src='img/palomo.png' alt='Palomo' />
                 <Card.Body>
-                    <Card.Title>Comunicación</Card.Title>
-                    <Card.Text>
+                    <h1>Comunicación</h1>
+                    <p>
                         Crear contenido y darlo a conocer al mundo
-                    </Card.Text>
+                    </p>
+                    <Button variant="primary">Conoce Más</Button>
                 </Card.Body>
             </Card>
             <Card>
-                <Card.Img variant="top" src='img/target.png' width="75" alt='Target' />
+                <Card.Img variant="top" src='img/target.png'   alt='Target' />
                 <Card.Body>
-                    <Card.Title>Estrategia</Card.Title>
-                    <Card.Text>
+                   
+                <div className='d-grid gap-2'>
+                <Button variant="danger" size='lg'>Estrategia</Button>{' '}
+                </div>
+                    
+                    <p>
                         Para la creación de Marca
-                    </Card.Text>
+                    </p>
+                    
                 </Card.Body>
             </Card>
             <Card>
-                <Card.Img variant="top" src='img/social-media.png' width="75" alt='social media' />
+                <Card.Img variant="top" src='img/social-media.png' alt='social media' />
                 <Card.Body>
-                    <Card.Title>Digital</Card.Title>
-                    <Card.Text>
+                    <h1>Digital</h1>
+                    <p>
                         Tu presencia Digital
-                    </Card.Text>
+                    </p>
+                    <Button variant="primary">Conoce Más</Button>
                 </Card.Body>
             </Card>
         </CardGroup>

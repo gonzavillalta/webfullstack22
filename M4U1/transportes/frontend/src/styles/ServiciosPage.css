@@ -1,3 +1,27 @@
-.Card {
+/* .Card {
 display: inline-flex;
+} */
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #f80209;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px
+    
+    
+}
+
+button{
+    color: #f80209;
+    /* margin-top: 5px; */
+        
 }

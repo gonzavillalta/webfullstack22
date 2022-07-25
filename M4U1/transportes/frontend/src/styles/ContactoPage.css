@@ -1,8 +1,20 @@
 .datos {
     font-size: larger;
     font-weight: 700;
+    margin-top: 20px;
 }
 
 .datos li {
     list-style: none;
+    font-size: 25px;
+}
+
+h2{
+    font-weight: bold;
+    
+}
+
+redes{
+    align-content: space-around;
+    border-radius: 20px;
 }
