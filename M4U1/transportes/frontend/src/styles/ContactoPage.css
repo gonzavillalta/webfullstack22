@@ -4,9 +4,11 @@
     margin-top: 20px;
 }
 
-.datos li {
+.datos ul li {
+    text-align: center;
     list-style: none;
     font-size: 25px;
+    padding: 10px;
 }
 
 h2{
@@ -14,7 +16,13 @@ h2{
     
 }
 
-redes{
-    align-content: space-around;
-    border-radius: 20px;
+p {
+    text-align: center;
+    font-weight: 700;
+}
+
+.redes {
+    display: inline-block;
+    margin-left: 180px;
+    padding: 30px;  
 }

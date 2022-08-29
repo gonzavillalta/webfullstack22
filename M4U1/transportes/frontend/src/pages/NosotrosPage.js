@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Novedadpersona from '../components/novedades/novedadpersona';
+import '../styles/NosotrosPage.css'
 
 
 const NosotrosPage = (props) => {
@@ -18,6 +19,7 @@ const NosotrosPage = (props) => {
         };
         cargarNovedades();
     }, []);
+
     return (
         <main className='holder'>
             <div className='historia'>
@@ -27,25 +29,22 @@ const NosotrosPage = (props) => {
 
 
             </div>
-            <div className='staff'>
+            <div className='holder'>
                 <h2>Staff</h2>
-                {loading ? (
-                    <p>Cargando...</p>
-                ) : (
-                    novedades.map(persona => <Novedadpersona key={persona.id}
-                        nombre={persona.nombre} apellido={persona.apellido} edad={persona.edad} puesto={persona.puesto} imagen={persona.imagen} />)
-
-                )}
-                <div className='persona'>
-                    <img src='img/palomo.png' width="100" alt='Palomo'></img>
-                    <h5>Juan Palomo</h5>
-                    <h6>Director Creativo</h6>
-                    <p>Apasionado del Marketing Digital</p>
+                <div className='personas'>
+                    <div className='persona'>
+                        {loading ? (
+                            <p>Cargando...</p>
+                        ) : (
+                            novedades.map(persona => <Novedadpersona key={persona.id}
+                                nombre={persona.nombre} apellido={persona.apellido} edad={persona.edad} puesto={persona.puesto} imagen={persona.imagen} />)
+                        )}
+                    </div>
+                    
                 </div>
+                
             </div>
-
         </main>
-
     );
 }
 export default NosotrosPage;

@@ -20,8 +20,8 @@ function App() {
       {/* <Header /> */}
 
       <BrowserRouter>
-        <Nav/ >
         <Header />
+        <Nav />
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='nosotros' element={<NosotrosPage />} />
@@ -29,8 +29,8 @@ function App() {
           <Route path='contacto' element={<ContactoPage />} />
         </Routes>
       </BrowserRouter>
-      
-      <Footer/>
+
+      <Footer />
     </div>
   );
 }

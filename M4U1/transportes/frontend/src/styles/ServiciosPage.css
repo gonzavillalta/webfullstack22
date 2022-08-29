@@ -2,26 +2,19 @@
 display: inline-flex;
 } */
 
-p{
+.card-text {
     font-weight: bold;
     font-size: 20px;
     align-items: center;
     margin-top: 20px;
 }
 
-h1 {
+.card-title {
+    text-align: center;
+    color: #f80209;
     font-weight: bold;
     font-size: 40px;
-    color: #f80209;
-    align-items: center;
     border-style: solid;
-    border-radius: 10px
-    
-    
+    border-radius: 10px;
 }
 
-button{
-    color: #f80209;
-    /* margin-top: 5px; */
-        
-}

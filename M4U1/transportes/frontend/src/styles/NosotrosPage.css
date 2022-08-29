@@ -1,0 +1,16 @@
+/* .personas{
+display:flex;
+} */
+
+.persona{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+h3{
+    font-size: 30px;  
+}
