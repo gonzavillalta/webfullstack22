@@ -1,0 +1,29 @@
+.datos {
+    font-size: larger;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.datos ul li {
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+h2{
+    font-weight: bold;
+    
+}
+
+p {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.redes {
+    display: inline-block;
+    margin-left: 180px;
+    padding: 30px;  
+}
